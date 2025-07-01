@@ -1,0 +1,11 @@
+body{
+    background-color: aqua;
+}
+nav{
+    background-color: brown;
+    color: cornsilk;
+    font-size: larger;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+    font-style: italic;
+}
