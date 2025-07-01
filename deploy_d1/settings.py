@@ -33,8 +33,11 @@ SECRET_KEY = env('SECRET_KEY')
 
 DEBUG = True
 
-ALLOWED_HOSTS = ['localhost','127.0.0.1','*']
+ALLOWED_HOSTS = ['localhost','127.0.0.1','deploy-d1.onrender.com']
 
+CSRF_TRUSTED_ORIGINS=["https://deploy-d1.onrender.com"]
+
+INTERNAL_IPS=('127.0.0.1','localhost:8000')
 
 # Application definition
 
